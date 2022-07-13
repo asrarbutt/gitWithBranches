@@ -8,4 +8,9 @@ public class HalloWorldController {
     public String welcome(){
         return "Hallo World";
     }
+
+    @GetMapping
+    public String getWelcome(){
+        return "welcome world";
+    }
 }
